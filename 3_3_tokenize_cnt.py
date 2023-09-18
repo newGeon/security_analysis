@@ -17,9 +17,9 @@ from datetime import datetime
 ### 완전 정상적인 웹로그 제외
 ### 조금이라도 이상하다는 생각이 드는 것 위주로 추출할 수 있도록 진행
 
-domain_url = 'gov.kr'
+domain_url = 'co.kr'
 
-df_1_all = pd.read_csv('./data/1_preprocessed/01_second/20201013_140816/D_01/' + domain_url + '_2_url.csv', encoding = 'utf-8')
+df_1_all = pd.read_csv('./data/1_preprocessed/01_second/D_01/' + domain_url + '_2_url.csv', encoding = 'utf-8')
 del(df_1_all['Unnamed: 0'])
 
 # 도메인 명이 없는 경우 제외
