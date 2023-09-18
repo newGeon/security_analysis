@@ -19,7 +19,7 @@ df_1_all = pd.read_csv('./data/1_preprocessed/01_second/D_01/data.csv', encoding
 del(df_1_all['Unnamed: 0'])
 
 # 도메인 명이 없는 경우 제외
-df_2_all = df_1_all[df_1_all['url'].str.contains('minwon.go.kr') == True]
+df_2_all = df_1_all[df_1_all['url'].str.contains('www.naver.com') == True]
 
 df_2_all['domain'] = df_2_all['url'].str.split('/', 1).str[0]
 df_2_all['full_url'] = df_2_all['url'].str.split('/', 1).str[1]
