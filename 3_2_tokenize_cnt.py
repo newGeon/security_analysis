@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct  6 11:40:11 2020
-
+Created on 2023
 @author: Geon
 """
 
