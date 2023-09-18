@@ -15,7 +15,7 @@ from tqdm import tqdm
 from datetime import datetime
 
 
-df_1_all = pd.read_csv('./data/1_preprocessed/01_second/20201008_115659/D_01/minwon.go.kr_2_url.csv', encoding = 'utf-8')
+df_1_all = pd.read_csv('./data/1_preprocessed/01_second/D_01/data.csv', encoding = 'utf-8')
 del(df_1_all['Unnamed: 0'])
 
 # 도메인 명이 없는 경우 제외
